@@ -9,12 +9,12 @@
 int main(void)
 {
 	int i;
-	char m;
+	char j;
 
 	for (i = 0 ; i < 10 ; i++)
 		putchar(i + '0');
-	for (m = 'a' ; m < 'f' ; m++)
-		putchar(m);
+	for (j = 'a' ; j <= 'f' ; j++)
+		putchar(j);
 	putchar('\n');
 	return (0);
 
